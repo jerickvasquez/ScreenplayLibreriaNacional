@@ -62,7 +62,7 @@ public class BuscarLibroStepDefinitions {
         user.attemptsTo(
                 PaginaPerfilBuscarTask.PaginaPerfilBuscarTask()
         );
-        EsperaImplicita.esperaImplicita(3);
+        EsperaImplicita.esperaImplicita(5);
     }
     @Cuando("seleccione un libro")
     public void seleccioneUnLibro() {

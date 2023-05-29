@@ -35,9 +35,10 @@ public class LibroValidacionQuestion implements Question<Boolean> {
             int puntoIndex = libro.indexOf(".");
             libro = libro.substring(0, puntoIndex);
             longitudMinima = Math.min(libro.length(), tituloLibro.length());
+            return libro.startsWith(tituloLibro.substring(0, longitudMinima)) && precio.equals(precioLibro);
         }
 
-        return libro.startsWith(tituloLibro.substring(0, longitudMinima)) && precio.equals(precioLibro);
+        return libro.equals(tituloLibro) && precio.equals(precioLibro);
     }
 
     public static Question validacionLibro(){

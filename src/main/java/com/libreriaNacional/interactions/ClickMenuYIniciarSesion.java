@@ -7,7 +7,6 @@ import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
 import org.fluentlenium.core.annotation.Page;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 

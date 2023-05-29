@@ -1,8 +1,9 @@
 package com.libreriaNacional.ui;
 
+import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 
-public class LibroUI {
+public class LibroUI extends PageObject {
 
     public static final Target LBL_TITULO_LIBRO =Target.the("Titulo del libro")
             .locatedBy("//h1[@class='text--extrabold text--lgxm text--blue text--lh-1 col-10 col-md-9 px-0']");
